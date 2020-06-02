@@ -1,5 +1,7 @@
+#server:
+ # port: 5052
 server:
-  port: 5052
+   port: ${port:5052}
 db:
   name: itemdb
 spring:
